@@ -8,18 +8,17 @@
   }
   
   function removeExtraBlanks(string $text) {
-    $textLength = strlen($text);
     $outText = '';
     $w1 = ' ';
     $w2 = ' ';
     $isStarted = false;
     $textArray = str_split($text);
-    for($i = 0; $i < $textLength; $i++) {
+    foreach($textArray as $ch) {
       $w1 = $w2;
-      $w2 = $textArray[$i];
+      $w2 = $ch;
       if ( ($w1 === ' ') && 
            ($w2 !== ' ') && 
-           ($isStarted === true)
+           ($isStarted)
          ) 
       {
         $outText = $outText . $w1;
@@ -29,7 +28,7 @@
       }
       if ( ($w1 === ' ') && 
            ($w2 !== ' ') && 
-           ($isStarted === false) 
+           (!$isStarted) 
          ) 
       {
         $isStarted = true;

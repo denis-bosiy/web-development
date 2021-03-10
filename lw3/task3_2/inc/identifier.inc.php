@@ -1,32 +1,32 @@
 <?php 
-  function isLetter($ch) {
+  function isLetter(string $ch) {
     return ctype_alpha($ch);
   }
-  function isDigit($ch) {
+  function isDigit(string $ch) {
     return ctype_digit($ch);
   }
-  function getIsIdentifierError($ch) {
+  function getIdentifierError(string $ch, int $index) {
     if ( isLetter($ch) || isDigit($ch) ) {
-      if ( ($i === 0) && (isDigit($ch)) ) {
-        return true;
+      if ( ($index === 0) && (isDigit($ch)) ) {
+        return 'Error: first symbol - digit';
       }
       return false;
     }
-    return true;
+    return 'Error: ' . $ch . ' is not a letter and not a digit';
   }
   function checkIdentifier(?string $identifier) {
     if ($identifier) {
       $identifierArray = str_split($identifier);
       $identifierLength = strlen($identifier);
-      $isIdentifierError = false;
+      $identifierError = '';
       for($i = $identifierLength - 1; $i >= 0; $i--){
-        $isIdentifierError = getIsIdentifierError($identifierArray[$i]); 
-        if ($isIdentifierError) {
-          return 'no';
+        $identifierError = getIdentifierError($identifierArray[$i], $i); 
+        if ($identifierError) {
+          return $identifierError;
         }
       }
       return 'yes';
     } else {
-      return 'no';
+      return 'Identifier was not entered';
     }
   }
