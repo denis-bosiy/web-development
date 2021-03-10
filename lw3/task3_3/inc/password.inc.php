@@ -45,7 +45,7 @@
     }
   }
   
-  function subtractRepeatedSymbolsRule(string $password, int $passwordStrength, int $passwordLength) {
+  function subtractRepeatedSymbolsRule(string $password, int &$passwordStrength, int $passwordLength) {
     $ch = '';
     $repeatedSymbolsCount = 0;
     for($i = 0; $i < $passwordLength; $i++) {
