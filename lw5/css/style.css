@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+.menu-item {
+    font-size: 14px;
+    color: #e74c3c;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.slider-item__slogan {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #f4f5f9;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+
+.slider-item__heading {
+    font-size: 72px;
+    letter-spacing: 7px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.slider-item__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #cbc6c0;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.action_button {
+    padding: 20px 50px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    border: none;
+    background-color: #e74c3c;
+}
+
+.anchor_text-button {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    border: none;
+}
+
+.anchor_button {
+    border: none;
+}
+
+.advantages-item__header {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.advantages-item__description {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #999999;
+    font-weight: 300;
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+
+.services__heading {
+    font-size: 36px;
+    letter-spacing: 4px;
+    color: #f4f5f9;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+}
+
+.services-description__heading {
+    font-size: 18px;
+    line-height: 29px;
+    color: #e74c3c;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+}
+
+.services-description__text {
+    font-size: 14px;
+    line-height: 29px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    text-align: right;
+}
+
+.contact-header__heading {
+    font-size: 36px;
+    line-height: 20px;
+    color: #6a6a6a;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    filter: drop-shadow(0px 1px 0px #ffffff);
+}
+
+.contact-header__subheading {
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.contact-item__heading {
+    font-size: 24px;
+    line-height: 24px;
+    color: #e74e3e;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+}
+
+.contact-item__description {
+    font-size: 18px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.contact-form__input-text,
+.contact-form__textarea {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.trial-header__heading {
+    font-size: 36px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.author {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
