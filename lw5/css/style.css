@@ -1,13 +1,13 @@
 .welcome {
-    min-height: 800px;
+    min-height: 1000px;
     clip-path: polygon(
         0 0,
-        0 90%,
-        50% 100%,
-        100% 90%,
+        0 87%,
+        50% 99%,
+        100% 87%,
         100% 0
     ); /* как в SVG: площадь элемента — это система координат, три вершины треугольника разделяются запятой — 100% 0, 50% 100%, 0 0, местоположение вершины определяется двумя значениями — 100% 0, первое 100% — положение по горизонтали, второе 0 — положение по вертикали */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
         url("../images/welcome_background.jpeg");
     background-size: cover;
     text-align: center;
@@ -35,8 +35,8 @@
 }
 
 .menu__item {
-    float: left;
     min-width: 42px;
+    float: left;
 }
 
 .menu__item--text {
@@ -70,21 +70,22 @@
     width: 45px;
     height: 45px;
     position: relative;
-    border-radius: 2px;
     background-image: #716a65;
     border: none;
+    border-radius: 2px;
+    opacity: 0.4;
 }
 
 .slider__arrow--backward {
-    float: left;
     top: 117px;
     left: 30px;
+    float: left;
 }
 
 .slider__arrow--forward {
-    float: right;
     bottom: 177px;
-    right: 4px;
+    right: 10px;
+    float: right;
 }
 
 .slider-item__header {
@@ -94,20 +95,16 @@
 .slider-item__subheading {
     margin: 0;
     margin-bottom: 30px;
-    font-size: 24px;
+    font: 400 24px "Source Sans Pro";
     letter-spacing: 1px;
     color: #f4f5f9;
-    font-weight: 400;
-    font-family: "Source Sans Pro";
 }
 
 .slider-item__heading {
     margin: 0;
-    font-size: 72px;
+    font: 700 72px/77px "Open Sans";
     letter-spacing: 5px;
     color: #f4f5f9;
-    font-weight: 700;
-    font-family: "Open Sans";
     text-transform: uppercase;
 }
 
@@ -115,21 +112,16 @@
     max-width: 600px;
     padding: 5px;
     margin: 27px 0 0 108px;
-    font-size: 14px;
-    line-height: 24px;
+    font: 400 14px/24px "Open Sans";
     color: #cbc6c0;
-    font-weight: 400;
-    font-family: "Open Sans";
     text-align: center;
 }
 
 .action_buttons {
+    display: inline-block;
     max-width: 490px;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding-top: 14px;
-    padding-left: 31px;
-    clear: both;
+    margin-top: 45px;
+    padding: 14px 0 0 81px;
 }
 
 .action_button,
@@ -142,11 +134,9 @@
 .action_button {
     width: 225px;
     padding: 19px 0;
-    font-size: 14px;
+    font: 700 14px "Open Sans";
     letter-spacing: 0px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Open Sans";
+    color: #fff;
     border-radius: 3px;
     filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.25));
     background-color: #e74c3c;
@@ -157,13 +147,15 @@
     width: 225px;
     padding: 17px 0;
     margin-left: 27px;
-    font-size: 14px;
+    font: 700 14px "Open Sans";
     letter-spacing: 0px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Open Sans";
+    color: #fff;
     border: 1px solid #ffffff;
     text-decoration: none;
+}
+
+.anchor__image {
+    margin: 17px 0 0 21px;
 }
 
 .separator {
@@ -176,20 +168,20 @@
 }
 
 .separator__line--left {
-    float: left;
     margin-right: 15px;
+    float: left;
 }
 
 .separator__line--right {
-    float: right;
     margin-left: 15px;
+    float: right;
 }
 
 .separator__line--light {
-    max-width: 200px;
-    margin-bottom: 3px;
     width: 80px;
     height: 1px;
+    max-width: 200px;
+    margin-bottom: 3px;
     background-color: #fff;
     border: none;
 }
@@ -206,15 +198,77 @@
     display: inline-block;
     width: 64px;
     min-height: 64px;
+    position: relative;
+    top: -50px;
+    left: 924px;
     background-color: #fff;
     border-radius: 50%;
     border: 3px solid #000;
+}
+
+.advantages__container {
+    padding-top: 45px;
+}
+
+.advantages {
+    display: inline-block;
+    margin-left: 316px;
+}
+
+.advantage {
+    max-width: 245px;
+    margin-left: 60px;
+    text-align: center;
+    float: left;
+}
+
+.advantage__heading {
+    margin-left: 10px;
+    font: 600 18px "Open Sans";
+    letter-spacing: 2px;
+    color: #6a6a6a;
+    text-transform: uppercase;
+}
+
+.advantage__text {
+    font: 300 12px/20px "Source Sans Pro";
+    letter-spacing: 1px;
+    color: #999999;
+    text-align: center;
+}
+
+.advantage__separator {
+    width: 41px;
+    height: 1px;
+    background-color: #6a6a6a;
+}
+
+.advantage__heading--active {
+    color: #e74c3c;
+}
+
+.advantage:nth-child(1) {
+    margin-top: -10px;
+}
+
+.advantage:nth-child(2) {
+    margin-left: 70px;
+}
+
+.advantage:nth-child(3) {
+    margin-left: 55px;
 }
 
 /* Effects */
 
 .slider__arrow:hover {
     cursor: pointer;
+    background-color: #e74c3c;
+    opacity: 1;
+}
+
+.slider__arrow:hover .far {
+    color: #fff;
 }
 
 .slider__arrow:focus {
