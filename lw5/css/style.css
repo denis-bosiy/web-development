@@ -14,28 +14,28 @@
 }
 
 .header {
-    max-width: 1170px;
+    max-width: 1188px;
     margin: 0 auto;
     padding: 40px 5px 20px 5px;
 }
 
 .logo {
     float: left;
-    margin-left: 8px;
+    margin-left: 16px;
 }
 
 .menu {
+    margin-right: 2px;
     padding: 0;
     float: right;
     list-style-type: none;
 }
 
 .menu__item:not(:first-child) {
-    margin-left: 55px;
+    margin-left: 57.5px;
 }
 
 .menu__item {
-    min-width: 42px;
     float: left;
 }
 
@@ -45,6 +45,7 @@
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+    letter-spacing: 0.1px;
 }
 
 .slider {
@@ -54,7 +55,7 @@
 }
 
 .slider__item {
-    max-width: 800px;
+    max-width: 830px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 0 45px;
@@ -87,17 +88,16 @@
 }
 
 .slider-item__subheading {
-    margin: 0;
-    margin-bottom: 30px;
+    margin: 0 0 30px 15px;
     font: 400 24px "Source Sans Pro";
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     color: #f4f5f9;
 }
 
 .slider-item__heading {
-    margin: 0;
+    margin: 0 0 0 27px;
     font: 700 72px/77px "Open Sans";
-    letter-spacing: 5px;
+    letter-spacing: 7.3px;
     color: #f4f5f9;
     text-transform: uppercase;
 }
@@ -105,7 +105,7 @@
 .slider-item__text {
     max-width: 600px;
     padding: 5px;
-    margin: 27px 0 0 108px;
+    margin: 27px 0 0 118px;
     font: 400 14px/24px "Open Sans";
     color: #cbc6c0;
     text-align: center;
@@ -129,7 +129,7 @@
     width: 225px;
     padding: 19px 0;
     font: 700 14px "Open Sans";
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #fff;
     border-radius: 3px;
     filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.25));
@@ -139,10 +139,10 @@
 
 .anchor_button {
     width: 225px;
-    padding: 17px 0;
-    margin-left: 27px;
+    padding: 15px 0;
+    margin-left: 24px;
     font: 700 14px "Open Sans";
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #fff;
     border: 1px solid #ffffff;
     text-decoration: none;
@@ -154,7 +154,7 @@
 
 .separator {
     max-width: 200px;
-    margin: 28px 0 0 315px;
+    margin: 28px 0 0 322px;
 }
 
 .separator__circle {
@@ -217,7 +217,7 @@
 }
 
 .advantage__heading {
-    margin-left: 10px;
+    margin: 20px 0 15px 10px;
     font: 600 18px "Open Sans";
     letter-spacing: 2px;
     color: #6a6a6a;
@@ -225,35 +225,87 @@
 }
 
 .advantage__text {
+    margin-top: 11px;
     font: 300 12px/20px "Source Sans Pro";
-    letter-spacing: 1px;
-    color: #999999;
+    letter-spacing: 1.1px;
+    color: #999;
     text-align: center;
+}
+
+.advantage__image {
+    padding: 25px;
+}
+
+.advantage:not(:first-child) .advantage__header .advantage__image {
+    border: 1px solid #e5e5e5;
+}
+
+.advantage-image__container {
+    position: relative;
+    min-height: 75px;
+}
+
+.advantage:nth-child(1) .advantage__header .advantage-image__container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 90px;
+    top: 0;
+    border: 1px solid #e5e5e5;
+    transform: rotate(45deg);
 }
 
 .advantage__separator {
     width: 41px;
     height: 1px;
+    margin-left: 105px;
     background-color: #6a6a6a;
 }
 
-.advantage__heading--active {
-    color: #e74c3c;
-}
-
 .advantage:nth-child(1) {
-    margin-top: -10px;
+    margin-top: 4px;
 }
 
-.advantage:nth-child(2) {
-    margin-left: 70px;
+.advantage:nth-child(1) .advantage__header .advantage__heading {
+    margin-bottom: 15px;
 }
 
-.advantage:nth-child(3) {
-    margin-left: 55px;
+.advantage:nth-child(2) .advantage__header .advantage__image {
+    margin-left: 23px;
+}
+
+.advantage:nth-child(2) .advantage__header .advantage__heading {
+    margin: 22px 0 0 20px;
+}
+
+.advantage:nth-child(2) .advantage__separator {
+    margin-top: 15px;
+}
+
+.advantage:nth-child(3) .advantage__header .advantage__image {
+    padding: 25px 27px 20px 27px;
+    margin-left: 5px;
+}
+
+.advantage:nth-child(4) .advantage__header .advantage__image {
+    padding-right: 27px;
+    margin-left: 6px;
 }
 
 /* Effects */
+
+.advantage:hover .advantage__heading {
+    color: #e74c3c;
+}
+
+.advantage:nth-child(1):hover
+    .advantage__header
+    .advantage-image__container:after,
+.advantage:not(:first-child):hover .advantage__header .advantage__image {
+    border-color: #e74c3c;
+}
 
 .menu__item--text:hover {
     color: #e74c3c;
