@@ -1,132 +1,330 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Денис Босый - обучение</title>
+        <meta name="author" content="Денис Босый" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/normalize.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Денис Босый - обучение</title>
-    <meta name="author" content="Денис Босый" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/normalize.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-</head>
-
-<body>
-    <div class="welcome">
-        <header class="header">
-            <img class="logo" src="images/logo.png" alt="Логотип BINO"/>
-            <ul class="menu">
-                <li class="menu__item">
-                    <a class="menu__item--text" href="#" >Home</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__item--text" href="#" >About us</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__item--text" href="#">Portfolio</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__item--text" href="#" >Pricing</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__item--text" href="#" >Team</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__item--text" href="#" >Blog</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__item--text" href="#">Contact</a>
-                </li>
-            </ul>
-        </header>
-        <div class="slider">
-            <button class="slider__arrow slider__arrow--backward">
-                <i class="far fa-angle-left fa-2x"></i>
-            </button>
-            <div class="slider__item">
-                <div class="slider-item__header">
-                    <h2 class="slider-item__subheading">
-                        Our Clients Are Out First Priority
-                    </h2>
-                    <h1 class="slider-item__heading">Welcome to Bino</h1>
+    <body>
+        <div class="welcome">
+            <header class="header">
+                <img
+                    class="logo"
+                    src="images/logo.png"
+                    alt="Логотип BINO"
+                    width="140"
+                    height="53"
+                />
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">About us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Portfolio</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Pricing</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Team</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Contact</a>
+                    </li>
+                </ul>
+            </header>
+            <div class="slider">
+                <button class="slider__arrow slider__arrow_backward">
+                    <i class="far fa-angle-left fa-2x"></i>
+                </button>
+                <div class="slider__item">
+                    <div class="slider-item__header">
+                        <p class="slider-item__subheading">
+                            Our Clients Are Out First Priority
+                        </p>
+                        <h1 class="slider-item__heading">Welcome to Bino</h1>
+                    </div>
+                    <div class="separator">
+                        <hr class="separator__line separator__line_light" />
+                        <div class="separator__circle"></div>
+                        <hr class="separator__line separator__line_light" />
+                    </div>
+                    <div class="slider-item__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.
+                    </div>
                 </div>
-                <div class="separator">
-                    <hr class="separator__line--light separator__line--left" />
+                <button class="slider__arrow slider__arrow_forward">
+                    <i class="far fa-angle-right fa-2x"></i>
+                </button>
+            </div>
+            <div class="action_buttons">
+                <a class="action_button" href="#">Get started now</a>
+                <a class="anchor_button" href="#">Learn more</a>
+            </div>
+        </div>
+        <a href="#" id="anchor"
+            ><img class="anchor__image" src="images/anchor.png" alt="Якорь"
+        /></a>
+        <div class="advantages__container">
+            <div class="advantages">
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <div class="advantage-image__container">
+                            <img
+                                class="advantage__image"
+                                src="images/glasses.png"
+                                alt="Очки"
+                            />
+                        </div>
+                        <h2 class="advantage__heading">Sleek design</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <img
+                            class="advantage__image"
+                            src="images/love.png"
+                            alt="Любовь"
+                        />
+                        <h2 class="advantage__heading">Clean code</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <img
+                            class="advantage__image"
+                            src="images/idea.png"
+                            alt="Лампочка"
+                        />
+                        <h2 class="advantage__heading">Creative ideas</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <img
+                            class="advantage__image"
+                            src="images/free_support.png"
+                            alt="Общение"
+                        />
+                        <h2 class="advantage__heading">Free support</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="services__container">
+            <div class="services">
+                <h1 class="title services__title">Our services</h1>
+                <ul class="services__list">
+                    <li class="service">
+                        <div class="service__description">
+                            <h4 class="service__heading">Web design</h4>
+                            <p class="service__text">
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry. Lorem Ip sum has been
+                                the industry's standard dummy text ever.
+                            </p>
+                        </div>
+                        <img
+                            class="service__image"
+                            src="images/monitor.png"
+                            alt="Monitor"
+                        />
+                    </li>
+                    <li class="service">
+                        <div class="service__description">
+                            <h4 class="service__heading">Print design</h4>
+                            <p class="service__text">
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry. Lorem Ip sum has been
+                                the industry's standard dummy text ever.
+                            </p>
+                        </div>
+                        <img
+                            class="service__image"
+                            src="images/book.png"
+                            alt="Book"
+                        />
+                    </li>
+                    <li class="service">
+                        <div class="service__description">
+                            <h4 class="service__heading">Photography</h4>
+                            <p class="service__text">
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry. Lorem Ip sum has been
+                                the industry's standard dummy text ever.
+                            </p>
+                        </div>
+                        <img
+                            class="service__image"
+                            src="images/photocamera.png"
+                            alt="Photocamera"
+                        />
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact__container">
+            <div class="contact">
+                <div class="contact__header">
+                    <h3 class="title contact__title">Keep in touch</h3>
+                    <p class="contact__subtitle">
+                        Nullam sit amet odio eu est aliquet euismod a a urna.
+                        Proin eu urna suscipit, dictum quam nec.
+                    </p>
+                </div>
+                <div class="separator contact__separator">
+                    <hr class="separator__line separator__line_dark" />
                     <div class="separator__circle"></div>
-                    <hr class="separator__line--light separator__line--right" />
+                    <hr class="separator__line separator__line_dark" />
                 </div>
-                <div class="slider-item__text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book.
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <ul class="contacts">
+                            <li class="contact__item">
+                                <h4 class="contact-item__heading">
+                                    Our address
+                                </h4>
+                                <p class="contact-item__text">
+                                    House #13, Streat road, Sydney 2310
+                                    Australia
+                                </p>
+                            </li>
+                            <li class="contact__item">
+                                <h4 class="contact-item__heading">Call us</h4>
+                                <p class="contact-item__text">
+                                    + 880 168 109 1425<br />
+                                    + 0216809142
+                                </p>
+                            </li>
+                            <li class="contact__item">
+                                <h4 class="contact-item__heading">Email us</h4>
+                                <p class="contact-item__text">
+                                    contactus@email.com
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <form method="POST" class="contact__form">
+                        <input
+                            class="contact-form__input_text"
+                            type="text"
+                            placeholder="Name"
+                        />
+                        <input
+                            class="contact-form__input_text"
+                            type="text"
+                            placeholder="Email"
+                        />
+                        <input
+                            class="contact-form__input_text"
+                            type="text"
+                            placeholder="Subject"
+                        />
+                        <textarea
+                            class="contact-form__input_text contact-form__textarea"
+                            placeholder="Message"
+                        ></textarea>
+                        <button class="action_button form__button">
+                            Send message
+                        </button>
+                    </form>
                 </div>
-            </div>
-            <button class="slider__arrow slider__arrow--forward">
-                <i class="far fa-angle-right fa-2x"></i>
-            </button>
-        </div>
-        <div class="action_buttons">
-            <a class="action_button" href="#">Get started now</a>
-            <a class="anchor_button" href="#">Learn more</a>
-        </div>
-    </div>
-    <a href="#" id="anchor"><img class="anchor__image" src="images/anchor.png" alt="Якорь" /></a>
-    <div class="advantages__container">
-        <div class="advantages">
-            <div class="advantage">
-                <div class="advantage__header">
-                    <img class="advantage__image" src="images/glasses.png" alt="Очки" />
-                    <h3 class="advantage__heading advantage__heading--active">Sleek design</h3>
-                </div>
-                <hr class="advantage__separator" />
-                <p class="advantage__text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting let. Lorem Ipsum has been the industry.
-                </p>
-            </div>
-            <div class="advantage">
-                <div class="advantage__header">
-                    <img class="advantage__image" src="images/love.png" alt="Любовь" />
-                    <h3 class="advantage__heading">Clean code</h3>
-                </div>
-                <hr class="advantage__separator" />
-                <p class="advantage__text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting let. Lorem Ipsum has been the industry.
-                </p>
-            </div>
-            <div class="advantage">
-                <div class="advantage__header">
-                    <img class="advantage__image" src="images/idea.png" alt="Лампочка" />
-                    <h3 class="advantage__heading">Creative ideas</h3>
-                </div>
-                <hr class="advantage__separator" />
-                <p class="advantage__text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting let. Lorem Ipsum has been the industry.
-                </p>
-            </div>
-            <div class="advantage">
-                <div class="advantage__header">
-                    <img class="advantage__image" src="images/free_support.png" alt="Общение" />
-                    <h3 class="advantage__heading">Free support</h3>
-                </div>
-                <hr class="advantage__separator" />
-                <p class="advantage__text">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting let. Lorem Ipsum has been the industry.
-                </p>
             </div>
         </div>
-    </div>
-</body>
-
+        <div class="trial__container">
+            <div class="trial">
+                <div class="trial__header">
+                    <h4 class="trial__heading">
+                        Let's Get Started Now.
+                        <span class="bold">It's FREE!</span>
+                    </h4>
+                    <h5 class="trial__subheading">
+                        30 day free trial. Free plan allows up to 2 projects.
+                        Pay if you need more. Cancel anytime. No catches.
+                    </h5>
+                </div>
+                <a class="action_button" href="#">Start free trial</a>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <ul class="socials">
+                    <li class="social">
+                        <img src="images/facebook.png" alt="Facebook" />
+                    </li>
+                    <li class="social">
+                        <img src="images/twitter.png" alt="Twitter" />
+                    </li>
+                    <li class="social">
+                        <img src="images/rss.png" alt="Rss" />
+                    </li>
+                    <li class="social">
+                        <img src="images/google_plus.png" alt="Google Plus" />
+                    </li>
+                    <li class="social">
+                        <img src="images/linkedin.png" alt="Linkedin" />
+                    </li>
+                    <li class="social">
+                        <img src="images/skype.png" alt="Skype" />
+                    </li>
+                    <li class="social">
+                        <img src="images/vimeo.png" alt="Vimeo" />
+                    </li>
+                    <li class="social">
+                        <img src="images/tumblr.png" alt="Tumblr" />
+                    </li>
+                </ul>
+                <span class="author">Kazi Erfan © All Rights Reserved</span>
+            </div>
+        </footer>
+        <button class="return_back_button">
+            <i class="fal fa-angle-up fa-2x"></i>
+        </button>
+    </body>
 </html>
