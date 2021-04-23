@@ -13,51 +13,153 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
     </head>
     <body>
         <div class="welcome">
             <header class="header">
-                <img src="images/logo.svg" alt="logo" class="logo"/>
+                <img
+                    class="logo"
+                    src="images/logo.png"
+                    alt="Логотип BINO"
+                    width="140"
+                    height="53"
+                />
                 <ul class="menu">
-                    <li class="menu__item"><a href="#" class="menu__item--text">Home</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item--text">About us</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item--text">Portfolio</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item--text">Pricing</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item--text">Team</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item--text">Blog</a></li>
-                    <li class="menu__item"><a href="#" class="menu__item--text">Contact</a></li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">About us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Portfolio</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Pricing</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Team</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item_text" href="#">Contact</a>
+                    </li>
                 </ul>
             </header>
             <div class="slider">
-                <button class="slider__arrow slider__arrow--backward"><i class="far fa-angle-left fa-2x"></i></button>
+                <button class="slider__arrow slider__arrow_backward">
+                    <i class="far fa-angle-left fa-2x"></i>
+                </button>
                 <div class="slider__item">
                     <div class="slider-item__header">
-                      <h2 class="slider-item__subheading">
-                        Our Clients Are Out First Priority
-                      </h2>
-                      <h1 class="slider-item__heading">Welcome to Bino</h1>
+                        <p class="slider-item__subheading">
+                            Our Clients Are Out First Priority
+                        </p>
+                        <h1 class="slider-item__heading">Welcome to Bino</h1>
                     </div>
                     <div class="clear"></div>
                     <div class="separator">
-                        <hr class="separator__line--light separator__line--left"/>
+                        <hr
+                            class="separator__line_light separator__line_left"
+                        />
                         <div class="separator__circle"></div>
-                        <hr class="separator__line--light separator__line--right"/>
+                        <hr
+                            class="separator__line_light separator__line_right"
+                        />
                     </div>
-                    <div class="slider-item__text">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting
-                      industry. Lorem Ipsum has been the industry's standard dummy text
-                      ever since the 1500s, when an unknown printer took a galley of type
-                      and scrambled it to make a type specimen book.
-                    </div>
-                  </div>
-                <button class="slider__arrow slider__arrow--forward"><i class="far fa-angle-right fa-2x"></i></button>
+                    <p class="slider-item__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <button class="slider__arrow slider__arrow_forward">
+                    <i class="far fa-angle-right fa-2x"></i>
+                </button>
             </div>
             <div class="action_buttons">
-                <a href="#" class="action_button">Get started now</a>
-                <a href="#" class="anchor_button">Learn more</a>
+                <a class="action_button" href="#">Get started now</a>
+                <a class="anchor_button" href="#">Learn more</a>
             </div>
-            <a href="#" id="anchor"><img src="images/anchor.svg" class="anchor__image" alt="Якорь"/></a>
+        </div>
+        <a href="#" id="anchor"
+            ><img class="anchor__image" src="images/anchor.png" alt="Якорь"
+        /></a>
+        <div class="advantages__container">
+            <div class="advantages">
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <div class="advantage-image__container">
+                            <img
+                                class="advantage__image"
+                                src="images/glasses.png"
+                                alt="Очки"
+                            />
+                        </div>
+                        <h2 class="advantage__heading">Sleek design</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <img
+                            class="advantage__image"
+                            src="images/love.png"
+                            alt="Любовь"
+                        />
+                        <h2 class="advantage__heading">Clean code</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <img
+                            class="advantage__image"
+                            src="images/idea.png"
+                            alt="Лампочка"
+                        />
+                        <h2 class="advantage__heading">Creative ideas</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__header">
+                        <img
+                            class="advantage__image"
+                            src="images/free_support.png"
+                            alt="Общение"
+                        />
+                        <h2 class="advantage__heading">Free support</h2>
+                    </div>
+                    <hr class="advantage__separator" />
+                    <p class="advantage__text">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting let. Lorem Ipsum has been the industry.
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
