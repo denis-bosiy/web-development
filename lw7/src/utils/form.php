@@ -10,6 +10,11 @@
   function saveForm($args) {
     $fileContent = '';
     $identifier = $args['email'];
+
+    if(!is_dir('../data/')) {
+      mkdir('../data/', 0777, true);
+    }
+    
     $filePath = '../data/' . $identifier . '.txt';
     saveValue('Name', $args['name'], $fileContent);
     saveValue('Email', $args['email'], $fileContent);

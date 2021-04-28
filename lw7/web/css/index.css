@@ -1,4 +1,4 @@
-.contact__form {
+.form {
   width: 100%;
   max-width: 665px;
   padding: 95px 98px;
@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.contact-form__input_container {
+.form__input-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -16,7 +16,7 @@
   margin-bottom: 21px;
 }
 
-.contact-form__input_text {
+.form__input-text {
   padding: 0 0 15px 5px;
   width: 100%;
   color: #999;
@@ -25,7 +25,7 @@
   border-bottom: 0.5px solid #999;
 }
 
-.contact-form__textarea {
+.form__textarea {
   margin-bottom: 5px;
   padding-top: 0;
   min-height: 115px;
@@ -33,7 +33,7 @@
   box-sizing: border-box;
 }
 
-.action_button {
+.action-button {
   width: 100%;
   max-width: 225px;
   padding: 19px 0;
@@ -57,17 +57,19 @@
   transition: 0.3s;
 }
 
-.error_text {
+.text {
   text-align: center;
+}
+
+.text--error {
   color: red;
 }
 
-.success_text {
-  text-align: center;
+.text--success {
   color: green;
 }
 
-.user_info {
+.user-info {
   width: 100%;
   display: flex;
   flex-direction: column;
