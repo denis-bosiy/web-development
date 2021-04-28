@@ -82,7 +82,7 @@
     text-transform: uppercase;
 }
 
-.slider-item__text {
+.slider-item__description {
     max-width: 600px;
     padding: 5px;
     font: 400 14px/24px "Open Sans";
