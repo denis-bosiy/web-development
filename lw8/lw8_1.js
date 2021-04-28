@@ -1,28 +1,24 @@
-function isPrimeByEratostheneSieve(num) {
-  let primeNumbers = [2];
+function isPrime(num) {
+  let isPrime = false;
 
-  for (let i = 3; i <= num; i++) {
-    let isPrime = true;
-    for (let primeNum of primeNumbers) {
-      if (num % primeNum === 0) {
+  for (let i = 2; i <= num; i++){
+    isPrime = true;
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) {
         isPrime = false;
+        break;
       }
     }
-    if (isPrime) {
-      primeNumbers.push(num);
-    }
-  }
-
-  for (let primeNum of primeNumbers) {
-    if (primeNum === num) {
+    if ( (isPrime) && (num === i) ) {
       return true;
     }
   }
+  
   return false;
 }
 
 function printNumberResult(number) {
-  if (isPrimeByEratostheneSieve(number)) {
+  if (isPrime(number)) {
     console.log(number + ' is prime number');
   } else {
     console.log(number + ' is not prime number');
@@ -45,4 +41,4 @@ function isPrimeNumber(args) {
   }
 }
 
-isPrimeNumber([20, 5]);
+isPrimeNumber([-3, -2, -1, 0, 1, 2,3,4,5,6,7,8,9,10,11,12,13,14,15]);
