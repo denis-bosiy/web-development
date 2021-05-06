@@ -1,4 +1,0 @@
-Name: shit
-Email: name@mal.ru
-Subject: name
-Message: name

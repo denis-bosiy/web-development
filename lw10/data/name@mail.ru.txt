@@ -1,4 +1,0 @@
-Name: shit
-Email: name@mail.ru
-Subject: 123
-Message: 123

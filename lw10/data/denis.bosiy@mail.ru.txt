@@ -1,4 +1,0 @@
-Name: shit
-Email: denis.bosiy@mail.ru
-Subject: 123
-Message: 123
