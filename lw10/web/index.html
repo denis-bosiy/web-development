@@ -1,0 +1,70 @@
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Лаба 10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <p class="text text--success">Form is successfully saved!</p> -->
+
+    <form class="form" method="POST" onsubmit="sendRequest(); return false;">
+      <div class="form__input-container">
+        <input
+          class="form__input-text"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+        />
+        <p class="text text--error hide-out" id="name-hint"></p>
+      </div>
+      <div class="form__input-container">
+        <input
+          class="form__input-text"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+        />
+        <p class="text text--error hide-out" id="email-hint"></p>
+      </div>
+      <div class="form__input-container">
+        <input
+          class="form__input-text"
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="Subject"
+        />
+        <p class="text text--error hide-out" id="subject-hint"></p>
+      </div>
+      <div class="form__input-container">
+        <textarea
+          class="form__input-text form__textarea"
+          placeholder="Message"
+          name="message"
+          id="message"
+        ></textarea>
+        <p class="text text--error hide-out" id="message-hint"></p>
+      </div>
+      <button class="action-button form__button">Send message</button>
+      <div class="hint-box hide-out" id="success-box">
+        <img src="images/check_mark.png" alt="Успешно" />
+        <p class="hint">Your message has been sent successfully</p>
+      </div>
+    </form>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
