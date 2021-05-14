@@ -588,6 +588,18 @@
     margin-left: 20px;
 }
 
+.social__link {
+    display: flex;
+}
+
+.social:nth-child(2) {
+    margin-left: 22px;
+}
+
+.social:nth-child(5) {
+    margin-left: 10px;
+}
+
 .social__image {
     fill: #999;
     transition: 0.5s ease;
@@ -595,10 +607,6 @@
 
 .social:nth-child(1) {
     margin: 0;
-}
-
-.social__image {
-    color: #999;
 }
 
 .author {
