@@ -1,5 +1,10 @@
 class Slider {
-    constructor(button_backward, button_forward, slider_items) {
+    constructor(slider) {
+        console.log(slider);
+        const button_backward = slider.getElementsByClassName('slider__arrow_backward')[0];
+        const button_forward = slider.getElementsByClassName('slider__arrow_forward')[0];
+        const slider_items = slider.getElementsByClassName('slider-items')[0];
+
         this.index = 0;
         this.button_backward = button_backward;
         this.button_forward = button_forward;
@@ -40,11 +45,7 @@ class Slider {
 }
 
 function run() {
-    const button_backward = document.getElementById('slider__arrow_backward');
-    const button_forward = document.getElementById('slider__arrow_forward');
-    const slider_items = document.getElementById('slider-items');
-
-    const slider = new Slider(button_backward, button_forward, slider_items);
+    const slider = new Slider(document.getElementById('slider'));
 }
 
 window.onload = run;
