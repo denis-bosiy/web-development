@@ -1,0 +1,1 @@
+INSERT INTO University.faculties (`name`) VALUES ('ФУП');

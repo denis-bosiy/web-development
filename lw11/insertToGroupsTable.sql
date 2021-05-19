@@ -1,0 +1,1 @@
+INSERT INTO University.Groups (faculty_id) VALUES (3);
