@@ -25,7 +25,7 @@ function saveFeedbackPage(): void
     $isError = true;
   }
   if (!preg_match($namePossibleCharactersPattern, $name)) {
-    $args['name_error_msg'] = "Login can contain only english alphabet and digits"; 
+    $args['name_error_msg'] = "Login can contain only english letters and digits"; 
     $isError = true;
   }
   if (!preg_match($emailPattern, $email)) {
@@ -36,12 +36,12 @@ function saveFeedbackPage(): void
     $args['subject_error_msg'] = "Subject is empty";
     $isError = true;
   }
-  if (strlen($message) === 0) {
-    $args['message_error_msg'] = "Message is empty";
-    $isError = true;
-  }
   if (!preg_match($subjectLengthPattern, $subject)) {
     $args['subject_error_msg'] = "Subject is too long";
+    $isError = true;
+  }
+  if (strlen($message) === 0) {
+    $args['message_error_msg'] = "Message is empty";
     $isError = true;
   }
   if (!preg_match($messageLengthPattern, $message)) {
