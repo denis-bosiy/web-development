@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Денис Босый - обучение</title>
+  <meta name="author" content="Денис Босый" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="welcome">
+    <header class="header">
+      <img class="logo" src="images/logo.png" alt="Логотип BINO" width="140" height="53" />
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__text" href="#">Home</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__text" href="#">About us</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__text" href="#">Portfolio</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__text" href="#">Pricing</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__text" href="#">Team</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__text" href="#">Blog</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__text" href="#">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <header class="header header--mobile">
+      <div class="burger" onclick="toggleMenu()">
+        <span class="burger__line burger__line--first"></span>
+        <span class="burger__line burger__line--second"></span>
+        <span class="burger__line burger__line--third"></span>
+        <span class="burger__line burger__line--fourth"></span>
+      </div>
+    </header>
+    <ul class="menu menu--mobile">
+      <li class="menu__item menu__item--mobile"><a href="#home" class="menu__text menu__text--mobile"
+          onclick="toggleMenu()">Home</a></li>
+      <li class="menu__item menu__item--mobile"><a href="#about" class="menu__text menu__text--mobile"
+          onclick="toggleMenu()">About</a></li>
+      <li class="menu__item menu__item--mobile"><a href="#expertise" class="menu__text menu__text--mobile"
+          onclick="toggleMenu()">Expertise</a></li>
+      <li class="menu__item menu__item--mobile"><a href="#team" class="menu__text menu__text--mobile"
+          onclick="toggleMenu()">Team</a></li>
+      <li class="menu__item menu__item--mobile"><a href="#works" class="menu__text menu__text--mobile"
+          onclick="toggleMenu()">Works</a></li>
+      <li class="menu__item menu__item--mobile"><a href="#people_say" class="menu__text menu__text--mobile"
+          onclick="toggleMenu()">People say</a></li>
+      <li class="menu__item menu__item--mobile"><a href="#contact" class="menu__text menu__text--mobile"
+          onclick="toggleMenu()">Contact</a></li>
+    </ul>
+    <div class="slider">
+      <button class="slider__arrow slider__arrow_backward">
+        <i class="far fa-angle-left fa-2x"></i>
+      </button>
+      <div class="slider-item">
+        <div class="slider-item__header">
+          <p class="slider-item__subheading">
+            Our Clients Are Our First Priority
+          </p>
+          <h1 class="slider-item__heading">Welcome to Bino</h1>
+        </div>
+        <div class="separator">
+          <hr class="separator__line separator__line_light" />
+          <div class="separator__circle"></div>
+          <hr class="separator__line separator__line_light" />
+        </div>
+        <div class="slider-item__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book.
+        </div>
+      </div>
+      <button class="slider__arrow slider__arrow_forward">
+        <i class="far fa-angle-right fa-2x"></i>
+      </button>
+    </div>
+    <div class="welcome__buttons">
+      <a class="action-button welcome__button" href="#">Get started now</a>
+      <a class="anchor-button welcome__button" href="#">Learn more</a>
+    </div>
+  </div>
+  <a class="anchor" href="#" id="anchor"><img class="anchor__image" src="images/anchor.png" alt="Якорь" /></a>
+  <div class="advantages-container">
+    <div class="advantages">
+      <div class="advantage">
+        <div class="advantage__header">
+          <div class="advantage-image-container">
+            <img class="advantage__image" src="images/glasses.png" alt="Очки" />
+          </div>
+          <h2 class="advantage__heading">Sleek design</h2>
+        </div>
+        <hr class="advantage__separator" />
+        <p class="advantage__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          let. Lorem Ipsum has been the industry.
+        </p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__header">
+          <img class="advantage__image" src="images/love.png" alt="Любовь" />
+          <h2 class="advantage__heading">Clean code</h2>
+        </div>
+        <hr class="advantage__separator" />
+        <p class="advantage__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          let. Lorem Ipsum has been the industry.
+        </p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__header">
+          <img class="advantage__image" src="images/idea.png" alt="Лампочка" />
+          <h2 class="advantage__heading">Creative ideas</h2>
+        </div>
+        <hr class="advantage__separator" />
+        <p class="advantage__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          let. Lorem Ipsum has been the industry.
+        </p>
+      </div>
+      <div class="advantage">
+        <div class="advantage__header">
+          <img class="advantage__image" src="images/free_support.png" alt="Общение" />
+          <h2 class="advantage__heading">Free support</h2>
+        </div>
+        <hr class="advantage__separator" />
+        <p class="advantage__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          let. Lorem Ipsum has been the industry.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="services-container">
+    <div class="services">
+      <h3 class="title services__title">Our services</h3>
+      <ul class="services__list">
+        <li class="service">
+          <div class="service__description">
+            <h4 class="service__heading">Web design</h4>
+            <p class="service__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ip sum has been the industry's standard dummy
+              text ever.
+            </p>
+          </div>
+          <img class="service__image" src="images/monitor.png" alt="Monitor" />
+        </li>
+        <li class="service">
+          <div class="service__description">
+            <h4 class="service__heading">Print design</h4>
+            <p class="service__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ip sum has been the industry's standard dummy
+              text ever.
+            </p>
+          </div>
+          <img class="service__image" src="images/book.png" alt="Book" />
+        </li>
+        <li class="service">
+          <div class="service__description">
+            <h4 class="service__heading">Photography</h4>
+            <p class="service__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ip sum has been the industry's standard dummy
+              text ever.
+            </p>
+          </div>
+          <img class="service__image" src="images/photocamera.png" alt="Photocamera" />
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="contact-container">
+    <div class="contact">
+      <div class="contact__header">
+        <h4 class="title contact__title">Keep in touch</h4>
+        <p class="contact__subtitle">
+          Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna
+          suscipit, dictum quam nec.
+        </p>
+      </div>
+      <div class="separator contact__separator">
+        <hr class="separator__line separator__line_dark" />
+        <div class="separator__circle"></div>
+        <hr class="separator__line separator__line_dark" />
+      </div>
+      <div class="contact__content">
+        <div class="contact__info">
+          <ul class="contacts">
+            <li class="contact-item">
+              <h5 class="contact-item__heading">Our address</h5>
+              <p class="contact-item__text">
+                House #13, Streat road, Sydney 2310 Australia
+              </p>
+            </li>
+            <li class="contact-item">
+              <h5 class="contact-item__heading">Call us</h5>
+              <p class="contact-item__text">
+                + 880 168 109 1425<br />
+                + 0216809142
+              </p>
+            </li>
+            <li class="contact-item">
+              <h5 class="contact-item__heading">Email us</h5>
+              <p class="contact-item__text">contactus@email.com</p>
+            </li>
+          </ul>
+        </div>
+        <form method="POST" class="contact-form">
+          <input class="contact-form__input-text" type="text" placeholder="Name" />
+          <input class="contact-form__input-text" type="text" placeholder="Email" />
+          <input class="contact-form__input-text" type="text" placeholder="Subject" />
+          <textarea class="contact-form__input-text contact-form__textarea" placeholder="Message"></textarea>
+          <button class="action-button contact-form__button">
+            Send message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="trial-container">
+    <div class="trial">
+      <div class="trial__header">
+        <h6 class="trial__heading">
+          Let's Get Started Now.
+          <span class="bold">It's FREE!</span>
+        </h6>
+        <p class="trial__subheading">
+          30 day free trial. Free plan allows up to 2 projects. Pay if you
+          need more. Cancel anytime. No catches.
+        </p>
+      </div>
+      <a class="action-button" href="#">Start free trial</a>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <ul class="socials">
+        <li class="social">
+          <a class="social__link" href="#" id="facebook-icon">
+          </a>
+        </li>
+        <li class="social">
+          <a class="social__link" href="#" id="twitter-icon">
+          </a>
+        </li>
+        <li class="social">
+          <a class="social__link" href="#" id="rss-icon">
+          </a>
+        </li>
+        <li class="social">
+          <a class="social__link" href="#" id="google_plus-icon">
+          </a>
+        </li>
+        <li class="social">
+          <a class="social__link" href="#" id="linkedin-icon">
+          </a>
+        </li>
+        <li class="social">
+          <a class="social__link" href="#" id="skype-icon">
+          </a>
+        </li>
+        <li class="social">
+          <a class="social__link" href="#" id="vimeo-icon">
+          </a>
+        </li>
+        <li class="social">
+          <a class="social__link" href="#" id="tumblr-icon">
+          </a>
+        </li>
+      </ul>
+      <span class="author">Kazi Erfan © All Rights Reserved</span>
+    </div>
+  </footer>
+  <button class="arrow-up">
+    <i class="fal fa-angle-up fa-2x"></i>
+  </button>
+  <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+    <svg style="margin-right: 30px;" width="70" height="70" preserveAspectRatio="xMidYMid meet"
+      data-bbox="0 -0.002 128.94 50.138" viewBox="0 -0.002 128.94 50.138" xmlns="http://www.w3.org/2000/svg"
+      data-type="color" role="img">
+      <g>
+        <path
+          d="M73.77.94c-2.55 1.34-3.55 3.6-3.55 9.84a10 10 0 0 1 3.22-1.94 13.54 13.54 0 0 0 3.32-1.77c2.16-1.6 2.46-3.64 2.46-7.07 0 0-3.49-.09-5.45.94z"
+          fill="#1d1d1b" data-color="1" />
+        <path
+          d="M58.62 2.4a9.77 9.77 0 0 0-2.7 4.77l-6.9 26.72-5.73-21.82a18.79 18.79 0 0 0-3.16-7.2c-2-2.47-6.16-2.63-6.6-2.63s-4.57.16-6.6 2.63a18.79 18.79 0 0 0-3.16 7.2l-5.74 21.82-6.9-26.72A9.71 9.71 0 0 0 8.44 2.4C5.06-.58 0 .07 0 .07l13.22 49.94s4.36.32 6.54-.8c2.86-1.46 4.22-2.58 6-9.38 1.46-6.06 5.81-23.86 6.22-25.12.2-.63.45-2.13 1.55-2.13s1.35 1.5 1.55 2.13c.4 1.27 4.72 19.06 6.27 25.12 1.73 6.8 3.1 7.92 6 9.38 2.18 1.12 6.54.8 6.54.8L67.06.07S62-.58 58.62 2.4z"
+          fill="#1d1d1b" data-color="1" />
+        <path
+          d="M79.22 8.22a8.22 8.22 0 0 1-2.71 2.33c-1.21.67-2.37 1.13-3.62 1.73-2.06 1-2.67 2.12-2.67 3.79v33.94s3.34.42 5.52-.69c2.8-1.43 3.45-2.81 3.47-9V10.07z"
+          fill="#1d1d1b" data-color="1" />
+        <path
+          d="M112.22 25.16L128.94.23s-7.07-1.21-10.57 2a39.36 39.36 0 0 0-4.75 5.71l-6.17 8.89a1.38 1.38 0 0 1-2.63 0l-6.17-8.89a40.1 40.1 0 0 0-4.75-5.71c-3.5-3.19-10.58-2-10.58-2l16.77 24.93-16.72 24.85s7.37.93 10.87-2.26a33.25 33.25 0 0 0 4.41-5.36l6.17-8.89a1.38 1.38 0 0 1 2.63 0l6.17 8.89a37.11 37.11 0 0 0 4.54 5.36c3.5 3.19 10.74 2.26 10.74 2.26z"
+          fill="#1d1d1b" data-color="1" />
+      </g>
+    </svg>
+    <div id="comp-juif2dqj" class="_2bafp" data-testid="richTextElement">
+      <p style="font-size:16px; line-height:1.4em"><span style="font-family:helveticaneuew10-45ligh,sans-serif;"><span
+            style="font-size:16px"><span style="font-style:normal; font-weight:400"><span
+                style="color:rgb(0, 0, 0); font-style:normal; font-weight:400">Этот сайт был создан с Wix.</span></span>
+    </div>
+  </div>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
