@@ -16,18 +16,22 @@
   text-align: center;
 }
 
+.welcome__action-button {
+  margin-left: 13px;
+}
+
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1245px;
+  max-width: 1224px;
   width: 100%;
   margin: 0 auto;
   padding: 40px 5px 20px 5px;
 }
 
 .logo {
-  margin-left: 48px;
+  margin-left: 27px;
 }
 
 .menu {
@@ -48,7 +52,7 @@
   align-items: center;
   width: 100%;
   margin-top: 206px;
-  padding: 0 27px;
+  padding: 0 49px 0 27px;
   box-sizing: border-box;
 }
 
@@ -154,7 +158,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 2px 0 0 6px;
+  margin: 2px 0 0 -14px;
 }
 
 .action-button,
@@ -167,7 +171,6 @@
 .action-button {
   min-width: 225px;
   padding: 19px 0;
-  margin-left: 13px;
   font: 700 14px 'Open Sans';
   letter-spacing: 0px;
   color: #fff;
@@ -193,7 +196,6 @@
 #anchor {
   position: relative;
   top: -50px;
-  left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,11 +231,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 28px;
+  margin: 0 30px;
 }
 
 .advantage__heading {
-  margin: 20px 0 5px 10px;
+  margin: 20px 0 5px 0;
   font: 600 18px 'Open Sans';
   letter-spacing: 2px;
   color: #6a6a6a;
@@ -288,22 +290,22 @@
 }
 
 .advantage:nth-child(2) .advantage__header .advantage__image {
-  margin-left: 33px;
+  margin-left: 14px;
 }
 
 .advantage:nth-child(2) .advantage__header .advantage__heading {
-  margin: 26px 0 0 30px;
+  margin: 25px 0 0 11px;
 }
 
 .advantage:nth-child(2) .advantage__separator {
-  margin-top: 10px;
-  margin-left: 113px;
+  margin-top: 15px;
+  margin-left: 102px;
 }
 
 .advantage:nth-child(3) .advantage__separator,
 .advantage:nth-child(4) .advantage__separator {
   margin-top: 8px;
-  margin-left: 113px;
+  margin-left: 100px;
 }
 
 .advantage:nth-child(3) .advantage__header .advantage__heading,
@@ -313,20 +315,20 @@
 
 .advantage:nth-child(3) .advantage__header .advantage__image {
   padding: 25px 27px 20px 27px;
-  margin-left: 5px;
+  margin-left: 0;
 }
 
 .advantage:nth-child(3) .advantage__header {
-  margin-left: 17px;
+  margin-left: 0;
 }
 
 .advantage:nth-child(4) .advantage__header {
-  margin-left: 25px;
+  margin-left: 0;
 }
 
 .advantage:nth-child(4) .advantage__header .advantage__image {
   padding-right: 27px;
-  margin-left: 6px;
+  margin-left: 0;
 }
 
 .advantage__separator {
@@ -339,9 +341,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #202020 url('../images/services_background.jpg') 133%;
+  background: #202020 url('../images/services_background.jpg') 100%;
   background-repeat: no-repeat;
-  padding: 66px 0 72px 0;
+  padding: 66px 0 67px 0;
 }
 
 .services {
@@ -352,7 +354,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  margin-right: 458px;
+  margin-right: 477px;
 }
 
 .services__list {
@@ -379,7 +381,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 55px;
+  margin-bottom: 57px;
 }
 
 .service__description {
@@ -430,7 +432,6 @@
   justify-content: center;
   align-items: flex-start;
   margin-top: 36px;
-  margin-left: 14px;
 }
 
 .contact-container {
@@ -443,7 +444,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 15px;
 }
 
 .contact__title {
@@ -455,7 +455,7 @@
 .contact__info {
   width: 100%;
   max-width: 480px;
-  padding: 96px 90px;
+  padding: 94px 87px;
   margin-right: 25px;
   filter: drop-shadow(0px 3px 2.5px rgba(0, 0, 0, 0.1));
   background-color: #fff;
@@ -465,14 +465,14 @@
 .contact-form {
   width: 100%;
   max-width: 665px;
-  padding: 95px 98px;
+  padding: 91px 94px;
   filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.1));
   background-color: #fff;
   box-sizing: border-box;
 }
 
 .contact__subtitle {
-  margin: 18px 0;
+  margin: 18px 0 20px 0;
   font: 400 14px/21px 'Open Sans';
   color: #999;
   text-align: center;
@@ -516,7 +516,7 @@
 }
 
 .contact__separator {
-  margin: 0 0 30px 21px;
+  margin: 0 0 30px 0;
 }
 
 .contact-form__button {
@@ -554,7 +554,7 @@
 }
 
 .trial__header {
-  margin: 0 15px 68px 0;
+  margin: 0 38px 68px 0;
 }
 
 .footer__wrapper {
@@ -563,8 +563,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1169px;
-  margin-left: 18px;
+  max-width: 1173px;
 }
 
 .footer {
@@ -619,8 +618,8 @@
   width: 53px;
   min-height: 53px;
   position: fixed;
-  bottom: 68px;
-  right: 33px;
+  bottom: 134px;
+  right: 45px;
   background-color: #e74c3c;
   border: none;
   border-radius: 50%;
