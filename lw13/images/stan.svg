@@ -1,0 +1,77 @@
+<svg width="134" height="209" viewBox="0 0 134 209" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Штаны -->
+  <rect x="24" y="191" width="91" height="16" fill="#356FC2" />
+  <!-- Левая часть кофты -->
+  <path d="M 27.5 134 C 41.7 127.9 67.5 153.8 67.5 153.8 L 67.5 197 L 20 191 L 6 178.5 C 6 178.5 9.8 141.5 27.5 134 Z"
+    fill="#D16E5F" />
+  <!-- Правая часть кофты -->
+  <path
+    d="M 107.7 134 C 92 127.9 68 153.8 68 153.8 V 196.6 L 117.9 191 C 117.9 191 123.9 184 124.5 171.5 C 125.2 157.6 118 137.9 107.7 134 Z"
+    fill="#D16E5F" />
+  <!-- Шарф -->
+  <path
+    d="M 90 142.3 C 103.3 136.5 108.6 134 109.5 136 C 111.2 137.7 110.4 144.4 94.8 151.2 C 83.9 158.5 71.6 158.5 68.5 155 C 67.3 153.5 65.4 150.5 68.5 148.5 C 72.2 146.1 81.7 144.7 90 142.3 Z"
+    fill="#FF2042" stroke="#000" stroke-opacity="0.25" stroke-width="0.25" />
+  <path
+    d="M45.3 142 C 59.2 148.1 70.1 152.2 68.9 154.9 C 67.7 157.7 54.8 158 41 152 C 27.1 145.9 21.9 136.2 23.2 133.4 C 24.4 130.7 31.5 135.9 45.3 142 Z"
+    fill="#FF2042" stroke="#000" stroke-opacity="0.25" stroke-width="0.25" />
+  <!-- Голова -->
+  <circle cx="66" cy="84" r="65" fill="#FFEABF" />
+  <!-- Шапка -->
+  <path d="M 67.5 16 C 99.6 15.8 117.6 36.5 133 68 L 2 68 C 11.7 35.8 32.6 16.3 67.5 16 Z" fill="#3973C4" />
+  <!-- Красная резинка на шапке -->
+  <path
+    d="M0 69.5455C0 69.5455 40.8844 55 67.5 55C94.1156 55 133.5 60.7366 133.5 60.7366V74.7366C106.797 70.623 88.4828 69.5169 67.5 69.5455C47.0343 69.5733 26.408 76.8965 0 81V69.5455Z"
+    fill="#FF2041" />
+  <!-- Звезда на шапке -->
+  <rect x="58.3" y="1" width="3.4" height="30.1" fill="#FD2040" stroke="#000" stroke-width="0.1" />
+  <rect x="0" y="0" width="3.4" height="30.1" transform="translate(65.5, 2) rotate(28.4)" fill="#FD2040" stroke="#000"
+    stroke-width="0.1" />
+  <rect x="0" y="0" width="3.4" height="30.1" transform="translate(70.8, 5.5) rotate(52.3)" fill="#FD2040" stroke="#000"
+    stroke-width="0.1" />
+  <rect x="0" y="0" width="3.4" height="30.1" transform="translate(75, 17.7) rotate(-256.8)" fill="#FD2040"
+    stroke="#000" stroke-width="0.1" />
+  <rect x="0" y="0" width="3.4" height="30.1" transform="translate(72.9, 23.9) rotate(-231.6)" fill="#FD2040"
+    stroke="#000" stroke-width="0.1" />
+  <rect x="0" y="0" width="3.4" height="30.1" transform="translate(68.2, 28.8) rotate(-205.8)" fill="#FD2040"
+    stroke="#000" stroke-width="0.1" />
+  <rect x="0" y="0" width="3.4" height="30.1" transform="translate(74, 10.5) rotate(75.2)" fill="#FD2040" stroke="#000"
+    stroke-width="0.1" />
+  <!-- Глаза -->
+  <ellipse cx="85.3" cy="91.2" rx="17" ry="21" transform="rotate(-30.7 85.3 91.2)" fill="#fff" />
+  <circle cx="76.5" cy="92.3" r="2.5" fill="#000" />
+  <ellipse cx="47.9" cy="92.5" rx="17.5" ry="21" transform="rotate(14.5 48 92.5)" fill="#fff" />
+  <circle cx="54.5" cy="92.25" r="2.5" fill="#000" />
+  <!-- Брови -->
+  <rect x="37.44" y="62.82" width="1.63474" height="19.74" transform="rotate(45.79 37.44 62.82)" fill="#5D3C45" />
+  <rect x="89.3" y="63.23" width="1.85375" height="19.69" transform="rotate(-52.18 89.3 63.23)" fill="#5D3C45" />
+  <!-- Рот -->
+  <path d="M 69.4 141.1 C 59.6 136.3 55.6 132.9 51.2 125.3 L 87.7 125.3 C 84.1 130.9 80.2 134.4 69.4 141.1 Z"
+    fill="#312C30" />
+  <rect x="62.3" y="125" width="7.2" height="6" fill="#fff" />
+  <path d="M 70.7 125 H 77.9 V 131 H 70.7 V 125 Z" fill="#fff" />
+  <path d="M 79.1 125 H 83.4 C 83.4 125 84.8 128.2 83 129.2 C 81.7 129.9 79.1 131 79.1 131 V 125 Z" fill="#fff" />
+  <path d="M 55.1 125 H 61.1 L 61.1 131 C 61.1 131 58.3 131.1 56.6 130 C 54.9 128.8 55.1 125 55.1 125 Z" fill="#fff" />
+  <!-- Застёжка кофты -->
+  <rect x="67.4" y="155" width="2" height="42" transform="rotate(1 67.3666 154.986)" fill="#513B3B" />
+  <!-- Пуговицы -->
+  <circle cx="62.5" cy="161.5" r="1.5" fill="#483638" stroke-opacity="0.25" stroke-width="0.25" />
+  <circle cx="62.5" cy="174.5" r="1.5" fill="#483638" stroke-opacity="0.25" stroke-width="0.25" />
+  <circle cx="62.5" cy="188.5" r="1.5" fill="#483638" stroke-opacity="0.25" stroke-width="0.25" />
+  <!-- Правая рука -->
+  <circle r="11" transform="translate(118 182)" fill="#FF2040" stroke="#000" stroke-opacity="0.25"
+    stroke-width="0.25" />
+  <rect width="1" height="20.2" transform="translate(107.8, 160.7)" fill="#694542" stroke="#000" stroke-opacity="0.25"
+    stroke-width="0.25" />
+  <circle r="4.5" transform="translate(112.3, 179.5)" fill="#FF2042" stroke="#000" stroke-opacity="0.3"
+    stroke-width="0.25" />
+  <!-- Левая рука -->
+  <circle cx="15.5" cy="178.5" r="10.5" fill="#FF2040" stroke="#000" stroke-opacity="0.25" stroke-width="0.25" />
+  <rect x="27.1" y="159.8" width="1" height="20.3" transform="rotate(17.5971 27.1436 159.81)" fill="#694542"
+    stroke="#000" stroke-opacity="0.25" stroke-width="0.25" />
+  <circle cx="22" cy="175" r="4" fill="#FF2042" stroke="#000" stroke-opacity="0.3" stroke-width="0.25" />
+  <!-- Обувь -->
+  <path
+    d="M 68.2 205.6 C 68.2 205.6 86.5 202.2 97.5 203 C 108 203.8 122 209 122 209 H 16 C 16 209 25.3 204.8 34 203.5 C 46 201.8 68.2 205.6 68.2 205.6 Z"
+    fill="#322D32" />
+</svg>
